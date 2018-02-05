@@ -1,0 +1,21 @@
+{
+  "name": "rohroh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "html": "^1.0.0",
+    "node-sass": "^4.7.2",
+    "scss-compile": "^0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run scss-compile",
+    "scss-compile": "node-sass -rw assets/scss -o assets/css",
+    "watch": "npm run scss-compile"
+  },
+  "author": "",
+  "license": "ISC"
+}

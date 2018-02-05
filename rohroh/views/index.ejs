@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rohsooil</title>
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="/assets/bootstrp/jquery.min.js"></script>
+    <script>
+            jQuery(function($){
+                $(".menu-toggle-btn").click(function(){
+                    $(".gnb").stop().slideToggle("fast");
+                });
+            });
+        </script>
+</head>
+<body>
+    <nav>
+        <div id="navigation">
+                <a href="/" id="logo">
+                    <img src="/img/logo.svg" alt="LOGO">
+                </a>
+                <ul class="list">
+                    <li><a href="/about">게임소개</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">새로운 소식</a></li>
+                    <li><a href="#">가격</a></li>
+                    <li><a href="#">가이드</a></li>
+                    <li><a href="#" id="langBtn">언어<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                </ul>
+                <span class="menu-toggle-btn"><!-- 토글 메뉴 버튼 -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <button id="loginBtn">로그인</button>
+                <div id="box">
+                    <ul id="lang" >
+                        <a href="#"><li>ENGLISH</li></a>
+                        <a href="#"><li>한국어</li></a>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+    <div class="intro">
+        <h1>코딩을 배우고 즐겨보세요!</h1>
+        <h3>당신의 코드와 로직으로 우리의 세계를 구해주세요!</h3>
+        <button class="startBtn">게임 시작</button>
+    </div>
+    <div id="section">
+        <div class="content fisrt">
+            
+        </div>
+        <div class="content second">
+
+        </div>
+    </div>
+    <footer>
+        <div id="logo2">
+            <img src="/img/logo2.svg" alt="LOGO">
+        </div>
+        <ul>
+            <li><a href="#">게임소개</a></li>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">새로운 소식</a></li>
+            <li><a href="#">가이드</a></li>
+        </ul>
+        <div id="company">
+            <div>
+                <p>© 2017 by TryCatch Media, Inc.
+                    <br> &emsp;&emsp;&emsp;All Rights Reserved.</p>
+                <img src="/img/company.png" alt="company">
+            </div>
+        </div>
+    </footer>
+    <script src="/script/index.js" type="text/javascript"></script>
+</body>
+</html>
