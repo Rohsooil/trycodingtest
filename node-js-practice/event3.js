@@ -7,7 +7,7 @@ process.emit('a');
 process.emit('a');
 process.emit('a');
 
-console.log('시발');
+console.log('비비');
 process.emit('a');
 process.emit('a');
 process.emit('a');
