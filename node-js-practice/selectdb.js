@@ -15,6 +15,6 @@ client.query('SELECT * FROM user',(error,results)=>{
 	//})
 	console.log(results.length);
 	for(var i = 0; i<results.length;i++){
-		console.log(results[i]);	
+		console.log(results[i])
 	}
 });
